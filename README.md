@@ -1,2 +1,8 @@
-# jupyter-kernels
-Automated build of docker image for Jupyter supporting multiple kernels
+## Docker image for Jupyter notebook with multiple kernels
+
+Currently supports:
+
+- R kernel
+- Python 3 kernel
+- Nodejs kernel ()
+- Bash kernel
