@@ -2,9 +2,9 @@
 
 ## Docker image for Jupyter notebook with multiple kernels
 
-Currently supports:
+The Dockerfile has been created based on the official Jupyter docker file that includes R (available [here](https://hub.docker.com/r/jupyter/r-notebook/) )
 
-- R kernel
-- Python 3 kernel
-- **Nodejs kernel**. The kernel is based on the Docker file available [here](https://github.com/nodejs/docker-node)
-- Bash kernel
+- **R kernel**.
+- **Python 3 kernel**.
+- **Nodejs kernel**. This kernel was included using parts of the official Nodejs Docker file (v6.2) available from [here](https://github.com/nodejs/docker-node)
+- **Bash kernel**. This kernel was included using the guideline provided [here](https://github.com/takluyver/bash_kernel)
