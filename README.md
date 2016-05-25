@@ -6,5 +6,5 @@ Currently supports:
 
 - R kernel
 - Python 3 kernel
-- Nodejs kernel ()
+- **Nodejs kernel**. The kernel is based on the Docker file available (here)(https://github.com/nodejs/docker-node)
 - Bash kernel
