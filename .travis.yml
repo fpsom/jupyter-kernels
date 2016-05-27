@@ -6,3 +6,5 @@ services:
 before_install:
   - docker build -t fpsom/jupyter-kernels .
 #  - docker run -p 8888:8888 fpsom/jupyter-kernels
+
+install: true
